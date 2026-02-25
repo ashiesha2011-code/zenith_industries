@@ -35,10 +35,10 @@ nav a {
 }
 
 .section {
-    padding: 60px 20px;
-    opacity: 1;
-    transform: translateY(40px);
-    transition: 1s;
+  padding: 60px 20px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s;
 }
 
 .section.show {
