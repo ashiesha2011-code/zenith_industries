@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0f1c;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111a2f;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url("images/hero.jpg") center/cover no-repeat;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 20px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #111a2f;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111a2f;
+}
